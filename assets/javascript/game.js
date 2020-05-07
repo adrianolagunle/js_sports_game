@@ -25,9 +25,7 @@ teamOneButton.addEventListener("click", function() {
      let newGoalCount = Number(teamOneGoals.innerHTML) +1
      teamOneGoals.innerHTML = newGoalCount  
         
-    } else {
-        
-    }
+    } 
 
 })
 teamTwoButton.addEventListener("click", function() {
@@ -39,9 +37,7 @@ teamTwoButton.addEventListener("click", function() {
         let newGoalCount2 = Number(teamTwoGoals.innerHTML) +1
         teamTwoGoals.innerHTML = newGoalCount2
         
-    } else {
-        
-    }
+    } 
 })
 
 resetButton.addEventListener("click", function() {
